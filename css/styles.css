@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -35,6 +36,27 @@ body {
     margin-top: 2rem;
   }
   
+  /* Coursework and Skills Containers */
+  .skills-container, .coursework-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem; /* Space between grid items */
+  }
+  
+  /* Individual Skills and Coursework Items */
+  .skill, .course {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  /* Font Awesome Icons */
+  .skill i, .course i {
+    font-size: 1.5rem; /* Adjust icon size */
+    color: #333; /* Icon color */
+  }
+  
+  /* Project Section */
   .project {
     border: 1px solid #ddd;
     padding: 1rem;
@@ -46,25 +68,7 @@ body {
     height: auto;
   }
   
-/* Grid layout for coursework and skills */
-.skills-container, .coursework-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem; /* Space between grid items */
-  }
-  
-  .skill, .course {
-    display: flex; /* Align items horizontally */
-    align-items: center; /* Vertically center icon and text */
-  }
-  
-  .skill img, .course img {
-    width: 20px; /* Adjust icon size */
-    height: 20px;
-    margin-right: 0.75rem; /* Add space between the icon and text */
-    vertical-align: middle; /* Align text and icon */
-  }  
-  
+  /* Form Styling */
   form input, form textarea {
     display: block;
     width: 100%;
@@ -81,6 +85,7 @@ body {
     cursor: pointer;
   }
   
+  /* Footer Styling */
   footer {
     background: #f0f0f0;
     padding: 1rem;
@@ -89,14 +94,19 @@ body {
   
   footer a {
     margin: 0 0.5rem;
+    color: #333;
+    font-size: 1.5rem;
     text-decoration: none;
   }
   
-  footer a img {
-    vertical-align: middle;
+  footer a:hover {
+    color: #0077b5; /* Example hover color for LinkedIn */
   }
   
-  footer a:hover img {
-    filter: brightness(1.2);
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .skills-container, .coursework-container {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
   }
   
