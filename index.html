@@ -6,135 +6,123 @@
   <meta name="description" content="Shyam Talati - Portfolio"/>
   <title>Shyam's Portfolio</title>
 
-  <!-- Font Awesome CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="css/styles.css" />
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<!-- Hero Section -->
+<header>
+  <div class="hero">
+    <div class="overlay">
+      <h1>Hi, I'm <span>Shyam Talati</span></h1>
+      <p>Made in Gujarat, Living in Philly | Computer Science Student</p>
+    </div>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-  <main>
-    <!-- About Section -->
-    <section id="about">
-      <h1>Hi, I'm Shyam Talati</h1>
-      <p>I'm an undergraduate Computer Science student at Drexel University passionate about Patents and Intellectual Property.</p>
-    </section>
+<main>
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm an undergraduate Computer Science student at <strong>Drexel University</strong>, 
+      passionate about coding, patents, and intellectual property. I grew up in Gujarat, India, 
+      and now I live in the vibrant city of Philadelphia. My journey reflects a blend of culture, 
+      technology, and creativity.
+    </p>
+  </section>
 
-    <!-- Education Section -->
-    <section id="education">
-      <h2>Education</h2>
-      
-      <h3>Drexel University</h3>
-      <p>Bachelor of Science in Computer Science<br>Expected Graduation Date: June 2027</p>
-      
-      <h4>Relevant Coursework:</h4>
-      <div class="coursework-container">
-        <div class="course">
-          <i class="fas fa-brain"></i>
-          <span>Introduction to Computer Science</span>
-        </div>
-        <div class="course">
-          <i class="fas fa-code"></i>
-          <span>Computing and Informatics I</span>
-        </div>
-        <div class="course">
-          <i class="fas fa-laptop-code"></i>
-          <span>Programming I</span>
-        </div>
-      </div>
-      
-      <h3>Temple University</h3>
-      <p>Bachelor of Arts in Political Science<br>May 2018</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="project">
-        <img src="images/python1-thumbnail.png" alt="Python Project 1 Thumbnail">
-        <h3>Python Project 1</h3>
-        <p>A short description of your Python project. What does it do? What skills or technologies did you use?</p>
-        <a href="https://github.com/shyamtalati/python-project1">View on GitHub</a>
-      </div>
-
-      <div class="project">
-        <img src="images/python2-thumbnail.png" alt="Python Project 2 Thumbnail">
-        <h3>Python Project 2</h3>
-        <p>Another Python project description. Briefly explain the purpose and highlight any interesting features.</p>
-        <a href="https://github.com/shyamtalati/python-project2">View on GitHub</a>
-      </div>
-
-      <div class="project">
-        <img src="images/js-project-thumbnail.png" alt="JavaScript Project Thumbnail">
-        <h3>JavaScript Project</h3>
-        <p>Describe your JS project. Perhaps it’s interactive or uses an API. Mention any front-end frameworks if applicable.</p>
-        <a href="https://github.com/shyamtalati/javascript-project">View on GitHub</a>
-      </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-      <h2>Skills</h2>
-      <div class="skills-container">
-        <div class="skill">
-          <i class="fab fa-python"></i>
-          <span>Python</span>
-        </div>
-        <div class="skill">
-          <i class="fab fa-html5"></i>
-          <span>HTML</span>
-        </div>
-        <div class="skill">
-          <i class="fab fa-css3-alt"></i>
-          <span>CSS</span>
-        </div>
-        <div class="skill">
-          <i class="fab fa-js"></i>
-          <span>JavaScript</span>
-        </div>
-        <div class="skill">
-          <i class="fab fa-swift"></i>
-          <span>Beginner Swift</span>
-        </div>
-        <div class="skill">
-          <i class="fab fa-node-js"></i>
-          <span>Beginner Node.js</span>
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education-container">
+      <div class="university">
+        <h3>Drexel University</h3>
+        <p>Bachelor of Science in Computer Science<br><em>Expected Graduation Date: June 2027</em></p>
+        <h4>Relevant Coursework:</h4>
+        <div class="coursework">
+          <div class="course">
+            <i class="fas fa-brain"></i>
+            <span>Introduction to Computer Science</span>
+          </div>
+          <div class="course">
+            <i class="fas fa-code"></i>
+            <span>Computing and Informatics I</span>
+          </div>
+          <div class="course">
+            <i class="fas fa-laptop-code"></i>
+            <span>Programming I</span>
+          </div>
         </div>
       </div>
-    </section>
+      <div class="university">
+        <h3>Temple University</h3>
+        <p>Bachelor of Arts in Political Science<br><em>Graduated: May 2018</em></p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <form action="https://formspree.io/f/your_form_id" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required/>
-        <input type="email" name="_replyto" placeholder="Your Email" required/>
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </section>
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Python Project 1</h3>
+      <p>A short description of my Python project.</p>
+      <a href="https://github.com/shyamtalati">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>JavaScript Project</h3>
+      <p>A creative interactive JavaScript project.</p>
+      <a href="https://github.com/shyamtalati">View on GitHub</a>
+    </div>
+  </section>
 
-  </main>
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <i class="fab fa-python"></i> Python
+      </div>
+      <div class="skill">
+        <i class="fab fa-html5"></i> HTML
+      </div>
+      <div class="skill">
+        <i class="fab fa-css3-alt"></i> CSS
+      </div>
+      <div class="skill">
+        <i class="fab fa-js"></i> JavaScript
+      </div>
+    </div>
+  </section>
 
-  <footer>
-    <p>Connect with me:</p>
-    <a href="https://github.com/shyamtalati">
-      <i class="fab fa-github"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/shyamtalati/">
-      <i class="fab fa-linkedin"></i>
-    </a>
-    <p>&copy; 2024 Shyam Talati</p>
-  </footer>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" />
+      <input type="email" placeholder="Your Email" />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>Connect with me:</p>
+  <a href="https://github.com/shyamtalati"><i class="fab fa-github"></i></a>
+  <a href="https://linkedin.com/in/shyamtalati"><i class="fab fa-linkedin"></i></a>
+  <p>Made in Gujarat, Living in Philly | &copy; 2024 Shyam Talati</p>
+</footer>
 </body>
 </html>
