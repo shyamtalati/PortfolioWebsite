@@ -46,25 +46,21 @@ body {
     height: auto;
   }
   
-  /* Containers for Skills and Coursework */
+  /* Grid layout for coursework and skills */
   .skills-container, .coursework-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 1rem;
   }
   
-  /* Align the icons and text horizontally */
   .skill, .course {
     display: flex;
     align-items: center;
   }
   
-  /* Style icons inside skills and coursework */
-  .skill i, .course i {
-    font-size: 24px; 
-    color: #333; 
-    margin-right: 0.5rem;
+  .skill img, .course img {
     vertical-align: middle;
+    margin-right: 0.5rem;
   }
   
   form input, form textarea {
@@ -94,14 +90,11 @@ body {
     text-decoration: none;
   }
   
-  /* Footer icons */
-  footer a i {
-    font-size: 24px;
-    color: #333;
+  footer a img {
     vertical-align: middle;
   }
   
-  footer a i:hover {
-    color: #0077b5; /* LinkedIn color for hover, adjust as desired */
+  footer a:hover img {
+    filter: brightness(1.2);
   }
   
