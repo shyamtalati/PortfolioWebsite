@@ -46,22 +46,24 @@ body {
     height: auto;
   }
   
-  /* Grid layout for coursework and skills */
-  .skills-container, .coursework-container {
+/* Grid layout for coursework and skills */
+.skills-container, .coursework-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
+    gap: 1rem; /* Space between grid items */
   }
   
   .skill, .course {
-    display: flex;
-    align-items: center;
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Vertically center icon and text */
   }
   
   .skill img, .course img {
-    vertical-align: middle;
-    margin-right: 0.5rem;
-  }
+    width: 20px; /* Adjust icon size */
+    height: 20px;
+    margin-right: 0.75rem; /* Add space between the icon and text */
+    vertical-align: middle; /* Align text and icon */
+  }  
   
   form input, form textarea {
     display: block;
